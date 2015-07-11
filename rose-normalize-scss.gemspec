@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/iammachine/rose-normalize-sass'
   
   s.version     = '0.0.1'
+  s.release     = 'alpha'
   s.date        = '2015-06-11'
   s.licenses    = ['Apache-v2.0']
   
