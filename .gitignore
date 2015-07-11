@@ -1,3 +1,9 @@
+## git ignore
+
+## Mac OS X
+.DS_Store
+
+## Ruby
 *.gem
 *.rbc
 /.config
