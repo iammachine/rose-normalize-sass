@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('compass-core','~> 1.0', '>= 1.0.0')
   
   s.files       = %w[
+    _rose-normalize-scss.scss
     README.md
     LICENSE
     docs/change-log.markdown
