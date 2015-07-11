@@ -48,3 +48,8 @@ $h6-font-size: 0.67 * $base-font-size !default;
 
 // The amount lists and blockquotes are indented.
 $indent-amount: 40px !default;
+
+// After the default variables are set, import the required Compass Partials.
+@import "compass/support";
+@import "compass/css3/box-sizing";
+@import "compass/typography/vertical_rhythm";
