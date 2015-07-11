@@ -10,4 +10,10 @@ Gem::Specification.new do |s|
   
   s.add_runtime_dependency('sass',        '~> 3.3', '>= 3.3.0')
   s.add_runtime_dependency('compass-core','~> 1.0', '>= 1.0.0')
+  
+  s.files       = %w[
+    README.md
+    LICENSE
+    docs/change-log.markdown
+  ]
 end
