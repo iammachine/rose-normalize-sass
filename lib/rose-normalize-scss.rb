@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # rose-normalize-scss [v0.0.1]
 # @author    : Prabhat Kumar
 # @copyright : Prabhat Kumar
