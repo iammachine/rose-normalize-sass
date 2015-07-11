@@ -15,5 +15,7 @@ Gem::Specification.new do |s|
     README.md
     LICENSE
     docs/change-log.markdown
+    lib/rose-normalize-scss.rb
+    rose-normalize-scss.gemspec
   ]
 end
