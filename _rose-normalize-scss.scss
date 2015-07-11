@@ -20,3 +20,14 @@
 //      that file. NOTE: Edit the lines to remove "!default".
 // @see http://compass-style.org/help/tutorials/best_practices/
 // ===============================================================================
+
+// These 3 variables are copies of ones used in Compass's Vertical Rhythm module.
+// The font size set on the root html element.
+$base-font-size: 16px !default;
+
+// The base line height determines the basic unit of vertical rhythm.
+$base-line-height: 24px !default;
+
+// The length unit in which to output vertical rhythm values.
+// Supported units: px, em, rem.
+$rhythm-unit: 'em' !default;
