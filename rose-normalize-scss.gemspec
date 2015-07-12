@@ -1,9 +1,12 @@
 # -*- encoding: utf-8 -*-
 
 
+# RubyGems [V2.0]: a Specification can hold arbitrary metadata.
+
 Gem::Specification.new do |s|
   s.name        = 'rose-normalize-scss'
   s.summary     = %q{The Sass/Compass version of Normalize.css}
+  s.description = ''
   s.authors     = ['Prabhat Kumar']
   s.email       = 'prabhat.senior@gmail.com'
   s.homepage    = 'https://github.com/iammachine/rose-normalize-sass'
