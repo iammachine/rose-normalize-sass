@@ -40,6 +40,10 @@ var chmod            = require('gulp-chmod');
 var target      = require('gulp-css-target');
 
 // ***** SETTINGS ***** //
+var paths = {
+  root: ['']
+};
+
 var AUTOPREFIXER_BROWSERS = [
   'ie >= 10',
   'ie_mob >= 10',
@@ -51,3 +55,12 @@ var AUTOPREFIXER_BROWSERS = [
   'android >= 4.4',
   'bb >= 10'
 ];
+
+// ***** TASKS ***** //
+// Rerun the task when a file changes.
+gulp.task('watch', function(){
+  gulp.watch(paths.root, ['rose-sass']);
+});
+
+// The default task (called when you run 'gulp' from cli)
+gulp.task('default', ['watch', 'rose-sass']);
